@@ -1,0 +1,12 @@
+# Executable
+example.exe
+example
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Go build artifacts
+*.test
+*.out

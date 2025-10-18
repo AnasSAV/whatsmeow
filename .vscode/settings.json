@@ -1,0 +1,27 @@
+{
+  "go.useLanguageServer": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintOnSave": "workspace",
+  "go.formatTool": "goimports",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "go.testFlags": [
+    "-v"
+  ],
+  "go.testTimeout": "60s",
+  "go.coverOnSave": false,
+  "go.coverOnSingleTest": true,
+  "go.coverOnSingleTestFile": true,
+  "files.exclude": {
+    "**/*.db": true,
+    "**/*.db-shm": true,
+    "**/*.db-wal": true
+  },
+  "files.watcherExclude": {
+    "**/*.db": true,
+    "**/*.db-shm": true,
+    "**/*.db-wal": true
+  }
+}
